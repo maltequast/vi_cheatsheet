@@ -25,6 +25,11 @@ Im Overview mode kann der Cursor durch die Pfeiltasten bewegt werden. Alternativ
 Um schnell an den Anfang einer Datei zu gelangen nutzt im Overview Mode die Taste *gg*.
 Um ans Ende der Datei zu gelangen drückt *G*.
 Mitte der Datei *M*.
+Command | Explanation
+------------ | -------------
+*gg* | Anfang einer Datei
+*M* | Mitte einer Datei
+*G* | Ende einer Datei
 
 #### Bewegen innerhalb von Zeilen /Wortanfänge
 Command | Explanation
