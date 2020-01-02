@@ -25,6 +25,7 @@ Im Overview mode kann der Cursor durch die Pfeiltasten bewegt werden. Alternativ
 Um schnell an den Anfang einer Datei zu gelangen nutzt im Overview Mode die Taste *gg*.
 Um ans Ende der Datei zu gelangen drückt *G*.
 Mitte der Datei *M*.
+
 Command | Explanation
 ------------ | -------------
 *gg* | Anfang einer Datei
@@ -32,6 +33,7 @@ Command | Explanation
 *G* | Ende einer Datei
 
 #### Bewegen innerhalb von Zeilen /Wortanfänge
+
 Command | Explanation
 ------------ | -------------
 *w* | nächste Wort
@@ -42,3 +44,32 @@ Command | Explanation
 *$* | Zeilenende
 
 
+## 3. Copy / Paste
+
+Command | Explanation
+------------ | -------------
+*yy* | Kopieren
+*p* | Einfügen
+*5yy* | e.g. 5 Zeilen kopieren
+
+## 6. Delete
+
+Command | Explanation
+------------ | -------------
+*dd* | Zeile löschen
+*dw* | bis zum nächsten Wort löschen
+*de* | bis zum Ende des aktuellen Wortes löschen
+
+## 7. Undo
+
+Command | Explanation
+------------ | -------------
+*:u* | letzten Schritt rückgängig machen
+
+## Save
+
+Command | Explanation
+------------ | -------------
+*:wq* | Speichern und Verlassen
+*:q!* | Verlassen OHNE speichern
+*:saveas | speichern als
