@@ -52,6 +52,23 @@ Command | Explanation
 *p* | Einfügen
 *5yy* | e.g. 5 Zeilen kopieren
 
+## 4. Search
+
+Command | Explanation
+------------ | -------------
+*/searchterm* | Suchbegriff  - Vorwärtssuche GLOBAL mit *n* und  zurück mit *N* 
+*?searchterm* | Suchbegriff - Rückwärtssuche GLOBAL
+*:%s/searchterm/replaceterm/* | Suchen und ersetzen GLOBAL
+*:s/searchterm/replaceterm/* | Replace in CURRENT row (all) occurences
+
+### Outside of VI
+
+Command | Explanation
+------------ | -------------
+*vi +/searchTermHere fileName* | Öffnen in VI und zum ersten Suchbegriff
+*vim +LineNumber fileName* | Öffnen des Files und zu Zeile springen
+*vi +commandHere fileName* | Kommand außerhalb von VI durchführen
+
 ## 6. Delete
 
 Command | Explanation
