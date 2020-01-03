@@ -31,6 +31,7 @@ Command | Explanation
 *gg* | Anfang einer Datei
 *M* | Mitte einer Datei
 *G* | Ende einer Datei
+*CTRL* + *d* or *u* | jump to the end of the screen
 
 #### Bewegen innerhalb von Zeilen /Wortanfänge
 
@@ -68,6 +69,14 @@ Command | Explanation
 *vi +/searchTermHere fileName* | Öffnen in VI und zum ersten Suchbegriff
 *vim +LineNumber fileName* | Öffnen des Files und zu Zeile springen
 *vi +commandHere fileName* | Kommand außerhalb von VI durchführen
+
+## 5. Insert
+
+Command | Explanation
+------------ | -------------
+*i* | insert here
+*a* | insert append
+*o* | open new line after this
 
 ## 6. Delete
 
