@@ -43,6 +43,7 @@ Command | Explanation
 *E* | Wortende (TODO: punctuation)
 *0* | Zeilenanfang
 *$* | Zeilenende
+*ge* | Letzte Wort zurück
 
 
 ## 3. Copy / Paste
